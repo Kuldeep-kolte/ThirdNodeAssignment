@@ -1,14 +1,14 @@
 {
   "name": "assignment3",
   "version": "1.0.0",
-  "description": "ThirdAssignment",
+  "description": "ThirdNodeAssignment",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "develop": "nodemon index.js"
   },
-  "author": "Kuldeep",
+  "author": "KuldeepKolte",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",

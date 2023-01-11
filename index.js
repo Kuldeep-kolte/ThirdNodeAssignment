@@ -14,19 +14,19 @@ const secondMddlwware = (req,res,next) => {
 app.use(firstMddlwware)
 
 
-app.get('/', secondMddlwware, function(req,res){
+app.get('/home', secondMddlwware, function(req,res){
     console.log("Hitting Home page")
     res.send({"message" : " Home page"})
 })
-app.get('/', function(req,res){
+app.get('/courses', function(req,res){
     console.log("Hitting Courses page")
     res.send({"message" : " Courses page"})
 })
-app.get('/', secondMddlwware, function(req,res){
+app.get('/ContactUs', secondMddlwware, function(req,res){
     console.log("Hitting  Contact page")
     res.send({"message" : " Contact page"})
 })
-app.get('/', function(req,res){
+app.get('/AboutUs', function(req,res){
     console.log("Hitting About page")
     res.send({"message" : " About page"})
 })
